@@ -43,7 +43,15 @@ section.hero {
 }
 
 blockquote {
-  width: 960px;
+  border-color: #eeeeee;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 18px;
+  margin: 20px 0;
+  padding: 20px;
+  clear: both;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
 }
 
 h1 {
@@ -73,22 +81,31 @@ article {
 
 footer {
   display: block;
+  background-color: #222222;
 }
 
 .column1 {
   width: 210px;
+  float: left;
 }
 
 .column2 {
   width: 400px;
+  float left;
 }
 
 .column3 {
   widows: 210px;
+  float: right;
+}
+
+#footer {
+  color: #cccccc;
 }
 
 li {
   border-bottom: dashed 1px #666666;
+  color: #1FA2E1;
   display: block;
 }
 
